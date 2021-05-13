@@ -9,4 +9,6 @@ Swift package for displaying interactive stock charts easily.'
   spec.source       = { :git => 'https://github.com/FutureWorkshops/StockCharts.git', :tag => '1.1.3' }
   spec.source_files = 'Sources/**/*.swift'
   spec.framework    = 'SystemConfiguration'
+  spec.swift_version         = '5'
+  spec.ios.deployment_target = '13.0'
 end
